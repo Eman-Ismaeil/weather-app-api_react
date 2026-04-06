@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, black, #00f2fe);
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.input {
+  width: 80%;
+  margin:auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #4facfe;
+}
+
+.weather h2 {
+  margin: 0;
+}
+
+.time {
+  font-size: 12px;
+  color: gray;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.temp h1 {
+  margin: 10px 0;
+}
+
+.condition {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.details {
+  text-align: left;
+  font-size: 14px;
+}
